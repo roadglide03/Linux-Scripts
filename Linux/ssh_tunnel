@@ -1,9 +1,0 @@
-ssh andy@10.0.1.63 \ 
-        -R1970:akrlxsamst01.wnsnet.attws.com:22 \ 
-        -R1971:artlxsamst01.wnsnet.attws.com:22 \ 
-        -R1972:alnlxsamst01.wnsnet.attws.com:22 \ 
-        -R1973:hstlxsamst01.wnsnet.attws.com:22 \ 
-        -R1974:vnnlxsamst01.wnsnet.attws.com:22 \ 
-        -R1975:bthlxsamst01.wnsnet.attws.com:22 \ 
-        -R1976:alplxsamst01.wnsnet.attws.com:22 \ 
-        'while :; do date ; echo tbit ; sleep 5 ; done'
